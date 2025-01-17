@@ -1,6 +1,6 @@
 import React from "react";
-import { Navbar } from "../Navbar/Navbar";
 import { ThemeContext } from "../../Context/theme";
+import { Navbar } from "../Navbar/Navbar";
 import "./Header.css";
 
 export const Header = () => {
@@ -13,7 +13,7 @@ export const Header = () => {
         <h3>
           <a href="#home" className="link">
             <span></span>
-            Himanshu
+            Rahul
           </a>
         </h3>
         <Navbar />

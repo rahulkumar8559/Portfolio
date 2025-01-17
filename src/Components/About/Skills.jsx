@@ -1,8 +1,8 @@
-import React from "react";
-import "./Introduction.css";
-import "./Skills.css"
 import ExitToAppIcon from "@material-ui/icons/ExitToApp";
+import React from "react";
 import { ThemeContext } from "../../Context/theme";
+import "./Introduction.css";
+import "./Skills.css";
 
 
 const Skills = () => {
@@ -16,12 +16,6 @@ const Skills = () => {
             <ExitToAppIcon />
           </span>
           FrontEnd Development{" "}
-        </h4>
-        <h4 className="different skills-card">
-          <span className="icons skills-card-img">
-            <ExitToAppIcon />
-          </span>
-          Data Structure Algorithm{" "}
         </h4>
         <h4 className="different skills-card">
           <span className="icons skills-card-img">

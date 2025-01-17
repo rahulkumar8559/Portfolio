@@ -1,24 +1,14 @@
 import React from "react";
-import "./Techstacks.css";
+import { BsBootstrap } from "react-icons/bs";
+import { DiCss3 } from "react-icons/di";
 import { FaReact } from "react-icons/fa";
 import {
-    SiRedux,
     SiHtml5,
-    SiChakraui,
-    SiSwiper,
-    SiNetlify,
-    SiVercel,
-    SiNodedotjs,
-    SiNodemon,
-    SiPostman,
-    SiExpress,
-    SiMongodb,
-    SiRailway
+    SiJavascript,
+    SiRedux
 } from "react-icons/si";
-import { DiCss3 } from "react-icons/di";
-import { SiJavascript, SiHeroku } from "react-icons/si";
 import { VscGithub } from "react-icons/vsc";
-import { BsBootstrap } from "react-icons/bs";
+import "./Techstacks.css";
 
 export const Techstacks = () => {
     return (
@@ -48,10 +38,7 @@ export const Techstacks = () => {
                         <SiRedux />
                         <h5>Redux</h5>
                     </div>
-                    <div>
-                        <SiChakraui />
-                        <h5>Chakra UI</h5>
-                    </div>
+                    
                     <div>
                         <VscGithub />
                         <h5>Github</h5>
@@ -60,34 +47,8 @@ export const Techstacks = () => {
                         <BsBootstrap />
                         <h5>Bootstrap</h5>
                     </div>
-                    <div>
-                        <SiNetlify />
-                        <h5>Netlify</h5>
-                    </div>
-                    <div>
-                        <SiHeroku />
-                        <h5>Heroku</h5>
-                    </div>
-                    <div>
-                        <SiNodedotjs />
-                        <h5>Node Js</h5>
-                    </div>
-                    <div>
-                        <SiNodemon />
-                        <h5>Nodemon</h5>
-                    </div>
-                    <div>
-                        <SiPostman />
-                        <h5>Postman</h5>
-                    </div>
-                    <div>
-                        <SiExpress />
-                        <h5>Express</h5>
-                    </div>
-                    <div>
-                        <SiMongodb />
-                        <h5>Mongodb</h5>
-                    </div>
+                    
+                   
                     
 
                     
