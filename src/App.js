@@ -1,14 +1,14 @@
-import "./App.css";
-import React from "react";
-import { ThemeContext } from "./Context/theme";
 import Aos from "aos";
-import { Header } from "./Components/Header/Header";
+import React from "react";
+import "./App.css";
 import { About } from "./Components/About/About";
-import { Projects } from "./Components/Projects/Projects";
-import GitHub from "./Components/GitHub/GitHub";
-import GetInTouch from "./Components/GetInTouch/GetInTouch";
 import { Footer } from "./Components/Footer/Footer";
+import GetInTouch from "./Components/GetInTouch/GetInTouch";
+import GitHub from "./Components/GitHub/GitHub";
+import { Header } from "./Components/Header/Header";
+import { Projects } from "./Components/Projects/Projects";
 import { ScrollToTop } from "./Components/ScrollToTop/ScrollToTop";
+import { ThemeContext } from "./Context/theme";
 // import Statistic from "./Components/Statistic/Statistic";
 import { Gitstat } from "./Components/Gitstat/Gitstat";
 

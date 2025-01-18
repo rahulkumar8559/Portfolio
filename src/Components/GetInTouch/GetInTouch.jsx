@@ -1,9 +1,9 @@
 import React from "react";
-import "./GetInTouch.css";
-import { VscGithub } from "react-icons/vsc";
-import { CgMail } from "react-icons/cg";
 import { BsFillTelephoneFill } from "react-icons/bs";
+import { CgMail } from "react-icons/cg";
+import { VscGithub } from "react-icons/vsc";
 import { ThemeContext } from "../../Context/theme";
+import "./GetInTouch.css";
 
 import { FaLinkedin } from "react-icons/fa";
 import { Email } from "../Email/Email";
@@ -24,21 +24,21 @@ const GetInTouch = () => {
               data-aos="fade-right"
             >
               <a
-                href="https://www.linkedin.com/in/himanshu-mishra-5302b4189/"
+                href="https:///"
                 target="_blank"
                 rel="noreferrer"
               >
                 <FaLinkedin className="linkedin" />
               </a>
               <a
-                href="https://github.com/HIMANSHUMISHRA389"
+                href="https://https://github.com/rahulkumar8559"
                 target="_blank"
                 rel="noreferrer"
               >
                 <VscGithub className="github" />
               </a>
               <a
-                href="mailto:himanshumishra389@gmail.com"
+                href="mailto:rk681253@gmail.com"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -52,7 +52,7 @@ const GetInTouch = () => {
                   <CgMail className="email" />
                 </span>
                 <span>
-                  <p>himanshumishra389@gmail.com</p>
+                  <p>rk681253@gmail.com</p>
                 </span>
               </div>
               <div className="iconsCont">
@@ -60,7 +60,7 @@ const GetInTouch = () => {
                   <BsFillTelephoneFill className="phone" />
                 </span>
                 <span>
-                  <p>+91-9354111045</p>
+                  <p>+91-7011118559</p>
                 </span>
               </div>
             </div>

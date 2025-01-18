@@ -1,6 +1,6 @@
 import React from "react";
-import "./Footer.css";
 import { ThemeContext } from "../../Context/theme";
+import "./Footer.css";
 
 export const Footer = () => {
   const [{ themename }] = React.useContext(ThemeContext);
@@ -13,7 +13,7 @@ export const Footer = () => {
             <h3 className="footer">
               Made with{" "}
               <span style={{ color: `red`, background: `transparent` }}>❤</span>{" "}
-              By Himanshu
+              By Rahul
             </h3>
           </div>
         </a>
