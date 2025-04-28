@@ -24,14 +24,14 @@ const GetInTouch = () => {
               data-aos="fade-right"
             >
               <a
-                href="https:///"
+                href="https://www.linkedin.com/in/rahul-kumar-6b6275227/"
                 target="_blank"
                 rel="noreferrer"
               >
                 <FaLinkedin className="linkedin" />
               </a>
               <a
-                href="https://https://github.com/rahulkumar8559"
+                href="https://github.com/rahulkumar8559"
                 target="_blank"
                 rel="noreferrer"
               >

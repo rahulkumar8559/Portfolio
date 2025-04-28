@@ -60,7 +60,7 @@ export const About = () => {
           </a>
           <a
             id="contact-linkedin"
-            href="https://www.linkedin.com/in/"
+            href="https://www.linkedin.com/in/rahul-kumar-6b6275227/"
             aria-label="linkedin"
             className="link link--icon"
             target="_blank"
@@ -70,7 +70,7 @@ export const About = () => {
           </a>
 
           <a
-            href="https://x.com/home" //twitter dalna h
+            href="https://x.com/RahulKu43069608" //twitter dalna h
             aria-label="twitter"
             className="link link--icon"
             target="_blank"

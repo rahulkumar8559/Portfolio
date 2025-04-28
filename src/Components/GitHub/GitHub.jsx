@@ -27,7 +27,7 @@ const GitHub = () => {
       <div className="github_Calender">
         <GitHubCalendar
           style={{ margin: "auto" }}
-          username="HIMANSHUMISHRA389"
+          username="rahulkumar8559"
 
           // transformData={selectLastHalfYear}
           //hideColorLegend

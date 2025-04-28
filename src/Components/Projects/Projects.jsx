@@ -1,10 +1,7 @@
 import React from "react";
-import "./Projects.css";
-import { SiHtml5, SiJavascript, SiRedux } from "react-icons/si";
 import { DiCss3 } from "react-icons/di";
-import { VscJson } from "react-icons/vsc";
-import { FaReact, FaNodeJs } from "react-icons/fa";
-import {TbBrandRedux} from "react-icons/tb"
+import { SiHtml5, SiJavascript } from "react-icons/si";
+import "./Projects.css";
 
 // import { IoLogoJavascript } from "react-icons/io";
 export const Projects = () => {
@@ -21,17 +18,15 @@ export const Projects = () => {
               <div className="project_videocontainer">
                 <div>
                   <img
-                    src="https://d2njprwt6vp5kv.cloudfront.net/vendor/6401/main/06182020fg1592500001054.jpg"
-                    alt="Lovoda"
+                    src="/culturalatlas.jpg"
+                    alt="Cultural Atlas"
                   />
                 </div>
               </div>
               <div className="project_information project-description">
-                <h2 className="project-title">Lovoda</h2>
+                <h2 className="project-title">Cultural Atlas</h2>
                 <p>
-                  Lovoda is an online jewelry and accessories brand located in
-                  Hanover, Maryland. it is a brand that thrives on providing
-                  jewelry that is stunning, high quality, and timeless to you.
+                The Cultural Atlas is an educational resource providing comprehensive information on the cultural background of All Country migrant populations. The aim is to improve social cohesion and promote inclusion in an increasingly culturally diverse society.
                 </p>
                 <div className="project-tech-stack">
                   <SiHtml5 />
@@ -41,7 +36,7 @@ export const Projects = () => {
                 <div>
                   <a
                     className="project-deployed-link"
-                    href="https://lovodarachnacom.netlify.app/"
+                    href="*" //add krna hai//
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -51,7 +46,7 @@ export const Projects = () => {
                   </a>
                   <a
                     className="project-github-link"
-                    href="https://github.com/rajyadav0001/Lovoda-clone"
+                    href="https://github.com/rahulkumar8559/Cultural"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -71,13 +66,13 @@ export const Projects = () => {
               <div className="project_videocontainer">
                 <div>
                   <img
-                    src="https://ik.imgkit.net/3vlqs5axxjf/PCWW/uploadedImages/Articles/News/2023/February/trivago%20q4%202022.png?tr=w-600%2Ch-300%2Cfo-auto"
-                    alt="Trivago"
+                    src="/food.jpg"
+                    alt="food-delivery"
                   />
                 </div>
               </div>
               <div className="project_information project-description">
-                <h2 className="project-title">Trivago</h2>
+                <h2 className="project-title">Food Delivery</h2>
                 <p>
                   trivago is a hotel search with an extensive price comparison.
                   The prices shown come from numerous hotels and booking
@@ -91,7 +86,7 @@ export const Projects = () => {
                 <div>
                   <a
                     className="project-deployed-link"
-                    href="https://trivago-clone0.netlify.app/"
+                    href="https://rahulkumar8559.github.io/food/" // add krna hai//
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -101,7 +96,7 @@ export const Projects = () => {
                   </a>
                   <a
                     className="project-github-link"
-                    href="https://github.com/ArjoshwaDmello/trivago-Clone-Project"
+                    href="https://github.com/rahulkumar8559/food"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -113,59 +108,7 @@ export const Projects = () => {
               </div>
             </div>
           </div>
-          <div
-            className="projects_container project-card"
-            data-aos="fade-right"
-          >
-            <div className="project">
-              <div className="project_videocontainer">
-                <div>
-                  <img
-                    src="https://img.webdesign-inspiration.com/v7/webdesign-inspiration.com/uploads/design/2014-09/style-com-18675.png"
-                    alt="Farfetch"
-                  />
-                </div>
-              </div>
-              <div className="project_information project-description">
-                <h2 className="project-title">Farfetch</h2>
-                <p>
-                  Farfetch is a British-Portuguese online luxury fashion retail
-                  platform that sells products from over 700 boutiques and
-                  brands from around the world.
-                </p>
-                <div className="project-tech-stack">
-                  <SiHtml5 />
-                  <DiCss3 />
-                  <SiJavascript />
-                  <FaReact />
-                  <SiRedux />
-                  <FaNodeJs/>
-                </div>
-                <div>
-                  <a
-                    className="project-deployed-link"
-                    href="https://farfetchclone.netlify.app/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span type="button" className="btns onbt">
-                      Go Live
-                    </span>
-                  </a>
-                  <a
-                    className="project-github-link"
-                    href="https://github.com/HIMANSHUMISHRA389/Farfetch"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span type="button" className="btns onbt">
-                      View Code
-                    </span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
+    
         </div>
       </div>
     </>

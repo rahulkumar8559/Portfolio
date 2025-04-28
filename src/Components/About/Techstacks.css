@@ -4,6 +4,10 @@
 
 .techsection {
     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     background-color: var(--clr-bg);
     height: 50vh;

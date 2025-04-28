@@ -5,7 +5,8 @@ import { FaReact } from "react-icons/fa";
 import {
     SiHtml5,
     SiJavascript,
-    SiRedux
+    SiRedux,
+    SiTailwindcss
 } from "react-icons/si";
 import { VscGithub } from "react-icons/vsc";
 import "./Techstacks.css";
@@ -46,6 +47,10 @@ export const Techstacks = () => {
                     <div>
                         <BsBootstrap />
                         <h5>Bootstrap</h5>
+                    </div>
+                    <div>
+                        <SiTailwindcss />
+                        <h5>Tailwind Css</h5>
                     </div>
                     
                    
