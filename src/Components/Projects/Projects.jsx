@@ -18,7 +18,7 @@ export const Projects = () => {
               <div className="project_videocontainer">
                 <div>
                   <img
-                    src="/culturalatlas.jpg"
+                     src="culturalatlas.jpg"
                     alt="Cultural Atlas"
                   />
                 </div>

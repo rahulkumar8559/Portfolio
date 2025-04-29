@@ -1,12 +1,11 @@
 import ExitToAppIcon from "@material-ui/icons/ExitToApp";
 import React from "react";
-import { ThemeContext } from "../../Context/theme";
 import "./Introduction.css";
 import "./Skills.css";
 
 
 const Skills = () => {
-    const [{ themename }] = React.useContext(ThemeContext);
+    // const [{ themename }] = React.useContext(ThemeContext);
   return (
     <div id="skills" style={{ marginTop: "10rem" }}>
       <h2 className="section__title different">SKILLS</h2>
